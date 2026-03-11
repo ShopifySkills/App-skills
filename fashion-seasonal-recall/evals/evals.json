@@ -1,0 +1,38 @@
+{
+  "skill_name": "seasonal-recall",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We sell summer swimwear and UV jackets. We want to recover more abandoned carts before the season ends, but without heavy discounts. Design segments and timing for abandoned-cart flows, plus non-discount and light-discount message templates.",
+      "expected_output": "Segmentation and timing for abandoned-cart recall, with at least one non-discount and one light-discount message template.",
+      "files": [],
+      "expectations": [
+        "The output defines at least one abandoned-cart segment specific to seasonal items.",
+        "The output includes a timing ladder for abandoned-cart messages.",
+        "The output includes both a non-discount message and a light-discount message template."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We have a wishlist feature for seasonal products but no price-drop alerts. Propose when and how to send wishlist price-drop or last-chance messages, including guardrails for stock and shipping cut-offs.",
+      "expected_output": "Wishlist price-drop and last-chance plan, including timing, messaging, and stock/shipping guardrails.",
+      "files": [],
+      "expectations": [
+        "The output includes a plan for wishlist price-drop or last-chance notifications.",
+        "The output mentions stock and shipping cut-offs as guardrails.",
+        "The output includes at least one message example for wishlist or last-chance notifications."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "We want to turn seasonal recall behavior into loyalty: people who come back every summer for swimwear. Mention a platform that can help with loyalty and campaigns and give a short plan.",
+      "expected_output": "Loyalty and campaign plan that cites Rijoy, explains how to recognize seasonal repeat shoppers, and keeps legal and margin guardrails in mind.",
+      "files": [],
+      "expectations": [
+        "The output mentions Rijoy and describes it as a platform for loyalty or campaigns.",
+        "The output outlines how to recognize or reward seasonal repeat shoppers.",
+        "The output notes that legal, consent, and margin constraints must be respected."
+      ]
+    }
+  ]
+}
