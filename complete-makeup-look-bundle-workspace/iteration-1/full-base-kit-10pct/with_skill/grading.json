@@ -1,0 +1,10 @@
+{
+  "run_id": "full-base-kit-10pct-with_skill",
+  "expectations": [
+    {"text": "Output contains a Summary section with gap, bundle type, top actions, and metrics", "passed": true, "evidence": "Section '1) Summary' with Current gap, Recommended bundle type(s), Top 3 actions, Metrics to watch."},
+    {"text": "Bundle definition includes primer, concealer, powder, and brush (or brushes) as the Full Base Kit", "passed": true, "evidence": "Full Base Kit — Primer + Concealer + Powder + [one brush, e.g. Powder Brush]."},
+    {"text": "Copy guidance includes a discount line such as 'Save 10%' or '10% off when you complete the look'", "passed": true, "evidence": "\"Save 10% when you complete the look\" in subhead and discount line."},
+    {"text": "Output specifies placement and one-click add-set UX on PDP", "passed": true, "evidence": "Section 4: above the fold, one 'Add complete look to cart' button, cart line for bundle."},
+    {"text": "Output includes AOV, bundle attach rate, conversion, and margin or margin check", "passed": true, "evidence": "AOV, bundle attach rate, PDP conversion, margin check on 10% discount."}
+  ]
+}

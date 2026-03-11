@@ -1,0 +1,10 @@
+{
+  "run_id": "lip-bundle-woo-with_skill",
+  "expectations": [
+    {"text": "Output contains a Summary section", "passed": true, "evidence": "Section '1) Summary' with Current gap, Recommended bundle type, Top 3 actions, Metrics to watch."},
+    {"text": "Bundle definition includes lip liner + lipstick + lip gloss with a name like 'Complete Lip Look' or equivalent", "passed": true, "evidence": "\"Complete Lip Look\" — Lip Liner + Lipstick + Lip Gloss — \"Everything you need for a defined, polished lip in one click.\""},
+    {"text": "Output includes CTA phrasing for adding the full set (e.g. 'Add complete lip look to cart') and secondary option to add single item only", "passed": true, "evidence": "Primary: 'Add complete lip look to cart'; Secondary: 'Add [Lip Liner / Lipstick / Lip Gloss] only'."},
+    {"text": "Output specifies PDP placement and mentions WooCommerce or is applicable to WooCommerce", "passed": true, "evidence": "Section 4 'Placement and UX (WooCommerce-friendly)'; Implementation checklist (WooCommerce) with composite/bundle product."},
+    {"text": "Output includes AOV, attach rate, and/or conversion as metrics", "passed": true, "evidence": "AOV, bundle attach rate, PDP→cart conversion; section 5 Metrics and Validation."}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "eval_id": 2,
+  "eval_name": "full-base-kit-10pct",
+  "prompt": "Our beauty store has primer, concealer, powder, and brushes. We're thinking of a 'Full Base Kit' bundle and maybe a small 10% off when they buy the set. How should we structure the bundles, what copy should we use on the PDP, and how do we track if it's working?",
+  "assertions": [
+    {"name": "has_summary", "description": "Output contains a Summary section with gap, bundle type, top actions, and metrics"},
+    {"name": "has_full_base_kit_components", "description": "Bundle definition includes primer, concealer, powder, and brush (or brushes) as the Full Base Kit"},
+    {"name": "has_10pct_discount_copy", "description": "Copy guidance includes a discount line such as 'Save 10%' or '10% off when you complete the look'"},
+    {"name": "has_placement_and_ux", "description": "Output specifies placement and one-click add-set UX on PDP"},
+    {"name": "has_metrics_and_margin", "description": "Output includes AOV, bundle attach rate, conversion, and margin or margin check"}
+  ]
+}
