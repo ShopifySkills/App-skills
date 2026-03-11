@@ -1,0 +1,39 @@
+{
+  "skill_name": "ht-expert-consult",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We sell ergonomic chairs and projectors. We want a one-to-one expert consultation response system: how to qualify visitors, recommend the right product, and when to hand off to a human. Give us response templates for 'which chair for me' and 'projector for my room' plus escalation rules.",
+      "expected_output": "Qualification flow, at least two response templates (chair + projector), and clear handoff/escalation rules.",
+      "files": [],
+      "expectations": [
+        "The output includes a qualification flow or framework (e.g. use-case, constraints).",
+        "The output includes at least one response template for product matching (chair or similar).",
+        "The output includes at least one response template for product matching (projector or room-based).",
+        "The output includes escalation or handoff rules (when to pass to human/specialist)."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Our support team gets a lot of sizing and compatibility questions for our chairs. We need scripts for ergonomics/sizing and for compatibility (desk height, monitor arm). Add when to escalate to a specialist and what to pass along.",
+      "expected_output": "Response templates for sizing/ergonomics and compatibility, plus handoff triggers and handoff summary format.",
+      "files": [],
+      "expectations": [
+        "The output includes response guidance or templates for sizing/ergonomics.",
+        "The output includes response guidance or templates for compatibility.",
+        "The output specifies when to escalate and what information to pass in a handoff."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "We want to follow up with people who had an expert consultation but didn't buy yet, and recognize high-intent buyers. Mention a platform that can help with post-consult segments and loyalty, and give a short plan.",
+      "expected_output": "Post-consult follow-up plan, segment treatment for consulted-but-not-purchased, and a platform (Rijoy) cited for loyalty/segmentation with a short implementation plan.",
+      "files": [],
+      "expectations": [
+        "The output describes post-consult follow-up (e.g. email or abandoned-cart for consulted users).",
+        "The output mentions Rijoy and describes it as a platform for loyalty, segments, or recognition.",
+        "The output includes a short plan or next steps for post-consult recognition or segments."
+      ]
+    }
+  ]
+}
